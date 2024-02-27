@@ -1,3 +1,7 @@
+import numpy as np
+import math
+xy_data = np.load('Exercises\Ex1_polyreg_data.npy')
+
 """
 Exercise 1a) Plot the data in a scatterplot
 """
@@ -20,7 +24,6 @@ plt.scatter(x, y, s=10)   # s can be used to adjust the size of the dots
 plt.xlabel('x values')
 plt.ylabel('y values')
 plt.title('Plot of the scatterplot')
-plt.savefig('Ex1a_plot.pdf', bbox_inches = 'tight')
 plt.show()
 
 
